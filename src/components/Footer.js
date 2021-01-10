@@ -12,19 +12,13 @@ export class Footer extends Component {
 				<ul className="filters">
 					<li>
 						{/* <a className="selected">All</a> */}
-						<a href="#" onClick={this.props.filterAll}>
-							All
-						</a>
+						<a href={this.props.filterAll}>All</a>
 					</li>
 					<li>
-						<a href="#" onClick={this.props.filterActive}>
-							Active
-						</a>
+						<a href={this.props.filterActive}>Active</a>
 					</li>
 					<li>
-						<a href="#" onClick={this.props.filterCompleted}>
-							Completed
-						</a>
+						<a href={this.props.filterCompleted}>Completed</a>
 					</li>
 				</ul>
 
