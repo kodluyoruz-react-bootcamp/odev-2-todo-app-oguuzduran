@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Link } from 'react';
 
 export class Footer extends Component {
 	render() {
@@ -12,13 +12,15 @@ export class Footer extends Component {
 				<ul className="filters">
 					<li>
 						{/* <a className="selected">All</a> */}
-						<a href={this.props.filterAll}>All</a>
+						<button onClick={this.props.filterAll}>All</button>
 					</li>
 					<li>
-						<a href={this.props.filterActive}>Active</a>
+						<button onClick={this.props.filterActive} style={{ paddingLeft: 5, paddingRight: 5 }}>
+							Active
+						</button>
 					</li>
 					<li>
-						<a href={this.props.filterCompleted}>Completed</a>
+						<button onClick={this.props.filterCompleted}>Completed</button>
 					</li>
 				</ul>
 
