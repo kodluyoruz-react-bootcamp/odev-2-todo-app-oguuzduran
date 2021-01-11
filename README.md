@@ -1,3 +1,3 @@
 # Kodluyoruz 2.Ödev
 
-Buradan çalışmayı kontrol edebilirsiniz.
+Buradan çalışmayı kontrol edebilirsiniz...
